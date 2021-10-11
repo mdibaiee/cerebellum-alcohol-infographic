@@ -13,3 +13,11 @@ header {
 h1 {
   text-align: center;
 }
+
+svg {
+  height: 800px;
+}
+
+#Alcohol, #connection-rectangle, #brain, #brain-projection, #human {
+  opacity: 0;
+}

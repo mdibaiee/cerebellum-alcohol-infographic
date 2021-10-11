@@ -2,9 +2,9 @@
 
 <body class='container'>
   <header class='row'>
-    {% for section in sections %}
-      <a class='column' href='#{{ section.title | anchor }}'>{{ section.title }}</a>
-    {% endfor %}
+    <a class='column' href='#section-1'>Alcohol and the Brain</a>
+    <a class='column' href='#section-1'>What does Cerebellum do?</a>
+    <a class='column' href='#section-1'>Symptoms of Cerebellum damage</a>
   </header>
 
   <div class='row'>
@@ -13,19 +13,45 @@
     </div>
   </div>
 
+  <div class='row'>
+    {% include 'assets/alcohol-cerebellum.svg' %}
+  </div>
+
   <div class='vertical-space'></div>
 
-  {% for section in sections %}
   <div class='row'>
     <div class='column'>
-      <h2 id='{{ section.title | anchor }}'>{{ section.title }}</h2>
+      <h2 id='#section-1'>Alcohol and the Brain</h2>
     </div>
   </div>
   <div class='row'>
     <div class='column'>
-      <p>{{ section.content }}</p>
+      <p>Alcohol can affect various areas of the brain including cerebellum ...</p>
     </div class='column'>
   </div>
-  {% endfor %}
 
+  <div class='row'>
+    <div class='column'>
+      <h2 id='#section-1'>What does Cerebellum do?</h2>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='column'>
+      <p>Cerebellum is one of the major controlling areas in terms of motor function: that means moving our bodies and keeping our balance ...</p>
+    </div class='column'>
+  </div>
+
+  <div class='row'>
+    <div class='column'>
+      <h2 id='#section-1'>Symptoms of Cerebellum damage</h2>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='column'>
+      <p>Loss of balance, dizziness, ...</p>
+    </div class='column'>
+  </div>
+
+  <script src='javascript/anime.min.js'></script>
+  <script src='javascript/main.js'></script>
 </body>
