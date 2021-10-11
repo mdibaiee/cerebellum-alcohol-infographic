@@ -1,0 +1,31 @@
+{% include './head.nj' %}
+
+<body class='container'>
+  <header class='row'>
+    {% for section in sections %}
+      <a class='column' href='#{{ section.title | anchor }}'>{{ section.title }}</a>
+    {% endfor %}
+  </header>
+
+  <div class='row'>
+    <div class='column'>
+      <h1>{{ title }}</h1>
+    </div>
+  </div>
+
+  <div class='vertical-space'></div>
+
+  {% for section in sections %}
+  <div class='row'>
+    <div class='column'>
+      <h2 id='{{ section.title | anchor }}'>{{ section.title }}</h2>
+    </div>
+  </div>
+  <div class='row'>
+    <div class='column'>
+      <p>{{ section.content }}</p>
+    </div class='column'>
+  </div>
+  {% endfor %}
+
+</body>
