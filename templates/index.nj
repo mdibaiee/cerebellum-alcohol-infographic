@@ -3,13 +3,14 @@
 <body class='container'>
   <header class='row'>
     <a class='column' href='#section-1'>Alcohol and the Brain</a>
-    <a class='column' href='#section-1'>What does Cerebellum do?</a>
+    <a class='column' href='#section-1'>What is Cerebellum and what does it do?</a>
     <a class='column' href='#section-1'>Symptoms of Cerebellum damage</a>
   </header>
 
-  <div class='row'>
+  <div class='row heading'>
     <div class='column'>
       <h1>{{ title }}</h1>
+      <h2>{{ subtitle }}</h2>
     </div>
   </div>
 
@@ -26,8 +27,14 @@
   </div>
   <div class='row'>
     <div class='column'>
-      <p>Alcohol can affect various areas of the brain including cerebellum ...</p>
-    </div class='column'>
+      <p>Binge drinking (drinking 5 units over a 2 hour period, followed by a period of abstinence) and high alcohol intake (more than 5 units a day), can lead to dependence, tolerance and cravings, which lead to a continuation of alcohol abuse to prevent withdrawal symptoms.</p>
+      <p>Chronic alcohol abuse can have adverse effects such as loss of balance and gait, slurred speech, slower reactions, poor memory consolidation, compromised emotional modulation and judgement. These effects in turn can lead to difficulties in social and emotional interactions, and a reduction in motivation, attention and impulse control.</p>
+      <p>These effects are studied and proven using methods such as MRI scans which show loss of neurons, particularly in the frontal lobe, the area most associated with reasoning, decision-making and rationality, however it can affect other areas of the brain such as the cerebellum (associated with balance and movement), hippocampus (memory) and amygdala (memory, decision making and emotional responses). [<a href='#ref-1'>1</a>]</p>
+
+      <p>Every year millions of people suffer from Alcohol use disorder, leading to physical and mental health problems.</p>
+
+      <canvas id='alcohol-abuse'></canvas>
+    </div>
   </div>
 
   <div class='row'>
@@ -53,5 +60,8 @@
   </div>
 
   <script src='javascript/anime.min.js'></script>
+  <script src='javascript/lodash.min.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js" integrity="sha512-Wt1bJGtlnMtGP0dqNFH1xlkLBNpEodaiQ8ZN5JLA5wpc1sUlk/O5uuOMNgvzddzkpvZ9GLyYNa8w2s7rqiTk5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="javascript/alcohol-use-disorder.js"></script>
   <script src='javascript/main.js'></script>
 </body>

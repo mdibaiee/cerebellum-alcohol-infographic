@@ -10,7 +10,7 @@ header {
   margin-bottom: 2rem;
 }
 
-h1 {
+.heading h1, .heading h2 {
   text-align: center;
 }
 
