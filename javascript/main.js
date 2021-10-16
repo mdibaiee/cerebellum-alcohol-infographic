@@ -9,14 +9,29 @@ const alcoholAbuseChart = new Chart(alcoholAbuseCanvas, {
     labels: alcoholDeathPercent.map(function(a) { return a.year }),
     datasets: [{
       label: 'Deaths by Alcohol Abuse',
-      data: alcoholDeathPercent.map(function(a) { return a.val }),
+      data: alcoholDeathPercent.map(function(a) { return a.val * 100 }),
       fill: true,
       backgroundColor: 'rgb(249, 98, 200)'
     }, {
       label: 'Prevalence of Alcohol Abuse',
-      data: alcoholPrevalencePercent.map(function(a) { return a.val }),
+      data: alcoholPrevalencePercent.map(function(a) { return a.val * 100 }),
       borderColor: 'rgb(97, 152, 250)'
     }]
+  },
+  options: {
+    aspectRatio: 1,
+    scales: {
+      y: {
+        type: 'linear',
+        beginAtZero: true,
+        max: 2,
+        ticks: {
+          callback: function(value, index, values) {
+            return value + '%';
+          }
+        }
+      }
+    }
   }
 });
 

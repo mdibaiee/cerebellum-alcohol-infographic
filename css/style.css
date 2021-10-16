@@ -10,6 +10,22 @@ header {
   margin-bottom: 2rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.alcohol-abuse-chart-box {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.alcohol-abuse-chart-box p {
+  margin-top: 1rem;
+}
+
 .heading h1, .heading h2 {
   text-align: center;
 }
