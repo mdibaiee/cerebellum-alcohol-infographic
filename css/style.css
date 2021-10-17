@@ -11,6 +11,10 @@ header {
   margin-right: 0;
 }
 
+header div {
+  text-align: center;
+}
+
 header a {
   display: inline-block;
   text-align: center;
