@@ -25,82 +25,18 @@
 
       <div class='vertical-space'></div>
 
-      <div class='row'>
-        <div class='column'>
-          <h2 id='alcohol-and-the-brain'>Alcohol and the Brain</h2>
-        </div>
-      </div>
-      <div class='row'>
-        <div class='column column-50'>
-          <p>Binge drinking (drinking 5 units over a 2 hour period, followed by a period of abstinence) and high alcohol intake (more than 5 units a day), can lead to dependence, tolerance and cravings, which lead to a continuation of alcohol abuse to prevent withdrawal symptoms.</p>
-          <p>Chronic alcohol abuse can have adverse effects such as loss of balance and gait, slurred speech, slower reactions, poor memory consolidation, compromised emotional modulation and judgement. These effects in turn can lead to difficulties in social and emotional interactions, and a reduction in motivation, attention and impulse control.</p>
-          <p>These effects are studied and proven using methods such as MRI scans which show loss of neurons, particularly in the frontal lobe, the area most associated with reasoning, decision-making and rationality, however it can affect other areas of the brain such as the cerebellum (associated with balance and movement), hippocampus (memory) and amygdala (memory, decision making and emotional responses). [<a href='#ref-1'>1</a>]</p>
 
-          <p>Every year millions of people suffer from Alcohol use disorder, leading to physical and mental health problems.</p>
-        </div>
-        <div class='column column-50'>
-          <div class='alcohol-abuse-chart-box'>
-            <canvas id='alcohol-abuse'></canvas>
-            <p class='text-center'>Prevalence of alcohol abuse and direct death caused by alcohol dependance across the world [<a href='#ref-2'>2</a>]</p>
-          </div>
-        </div>
-      </div>
+      {% include './alcohol-and-the-brain.nj' %}
 
-      <div class='row'>
-        <div class='column'>
-          <h2 id='what-is-cerebellum'>What is Cerebellum and what does it do?</h2>
-        </div>
-      </div>
-      <div class='row'>
-        <div class='column'>
-          <p>Cerebellum is one of the major controlling areas in terms of motor function: that means moving our bodies and keeping our balance ...</p>
-        </div class='column'>
-      </div>
+      {% include './what-is-cerebellum.nj' %}
 
-      <div class='row'>
-        <div class='column'>
-          <h2 id='how-alcohol-damages-cerebellum'>How does Alcohol damage your Cerebellum?</h2>
-        </div>
-      </div>
-      <div class='row'>
-        <div class='column'>
-          <p>Loss of balance, dizziness, ...</p>
-        </div class='column'>
-      </div>
+      {% include './alcohol-damage-cerebellum.nj' %}
 
-      <div class='row'>
-        <div class='column'>
-          <h2 id='how-cerebellum-damage-affects-you'>How does damage to Cerebellum affect you?</h2>
-        </div>
-      </div>
-      <div class='row'>
-        <div class='column'>
-          <p>Loss of balance, dizziness, ...</p>
-        </div class='column'>
-      </div>
+      {% include './symptoms.nj' %}
 
-      <div class='row'>
-        <div class='column'>
-          <h2 id='assessment'>How to assess your Cerebellum function?</h2>
-        </div>
-      </div>
-      <div class='row'>
-        <div class='column'>
-          <p>Loss of balance, dizziness, ...</p>
-        </div class='column'>
-      </div>
+      {% include './assessment.nj' %}
 
-      <div class='row'>
-        <div class='column'>
-          <h2 id='treatment-and-rehab'>Treatment and Rehabilitation</h2>
-        </div>
-      </div>
-      <div class='row'>
-        <div class='column'>
-          <p>Loss of balance, dizziness, ...</p>
-        </div class='column'>
-      </div>
-
+      {% include './treatment.nj' %}
     </div>
   </body>
 
