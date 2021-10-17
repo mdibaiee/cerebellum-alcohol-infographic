@@ -1,6 +1,39 @@
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   margin-top: 2rem;
   margin-bottom: 4rem;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  box-sizing: border-box;
+  margin-right: 0;
+}
+
+header a {
+  display: inline-block;
+  text-align: center;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+header a::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  left: 25%;
+  bottom: -0.4rem;
+  width: 50%;
+  height: 1px;
+  background: #9b4dca;
+  transition: all 0.3s;
+}
+
+header a:hover::after {
+  left: 0%;
+  width: 100%;
+  background: #606c76;
 }
 
 .vertical-space {
