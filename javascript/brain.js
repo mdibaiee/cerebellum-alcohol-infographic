@@ -19,15 +19,15 @@ canvas.appendChild( renderer.domElement );
 // Lights
 { 
     const color = 0xFFFFFF;
-    const intensity = 0.2;
+    const intensity = 0.6;
     const light = new THREE.AmbientLight(color, intensity);
-    //scene.add(light);
+    scene.add(light);
 }
 
 // Upper light
 {
     const color = 0xFFFFFF;
-    const intensity = 0.6;
+    const intensity = 1;
     const light = new THREE.DirectionalLight(color, intensity);
     light.position.set(0, 5, 0);
     light.target.position.set(0, 0.5, 0);
