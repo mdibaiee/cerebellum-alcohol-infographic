@@ -10,11 +10,13 @@ renderer.setSize(width, height);
 const canvas = document.getElementById('brain-container');
 canvas.appendChild( renderer.domElement );
 
-{
-  const controls = new THREE.OrbitControls(camera, canvas);
-  controls.target.set(0, 0.5, 0);
-  controls.update();
-}
+// Controls
+const controls = new THREE.OrbitControls(camera, canvas);
+controls.enablePan = false;
+controls.enableZoom = false;
+controls.autoRotate = true;
+controls.target.set(0, 0.5, 0);
+controls.update();
 
 // Lights
 { 
@@ -63,6 +65,7 @@ var highlightIndex = 0;
 
 function render() {
   renderer.render(scene, camera);
+  controls.update();
 
   if (brain) {
     highlightProgress += 0.025;
