@@ -46,13 +46,33 @@ canvas.appendChild( renderer.domElement );
     scene.add(light.target);
 }
 
+var brain = null;
 const objLoader = new THREE.GLTFLoader();
 objLoader.load('assets/brain.gltf', (root) => {
-  scene.add(root.scene.children[2]);
+  console.log(root.scene.children[2]);
+  brain = root.scene.children[2];
+  brain.children[5].material.emissive = new THREE.Color('black');
+  scene.add(brain);
 });
+
+const cerebellumHighlightColor = new THREE.Color(0x9D6720);
+const originalColor = new THREE.Color('black');
+var highlightColors = [cerebellumHighlightColor, originalColor];
+var highlightProgress = 0;
+var highlightIndex = 0;
 
 function render() {
   renderer.render(scene, camera);
+
+  if (brain) {
+    highlightProgress += 0.025;
+    brain.children[5].material.emissive.lerp(highlightColors[highlightIndex], highlightProgress);
+
+    if (highlightProgress >= 1) {
+      highlightProgress = 0;
+      highlightIndex = (highlightIndex + 1) % 2;
+    }
+  }
 
   requestAnimationFrame(render);
 }
