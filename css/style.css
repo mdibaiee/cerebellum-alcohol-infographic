@@ -83,3 +83,7 @@ svg {
 .highlight {
   background-color: rgb(251, 255, 130);
 }
+
+#brain-container canvas {
+  margin: 1rem auto;
+}

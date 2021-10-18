@@ -6,5 +6,7 @@
 <div class='row'>
   <div class='column'>
     <p>Cerebellum is one of the major controlling areas in terms of motor function: that means moving our bodies and keeping our balance ...</p>
+
+    <div id='brain-container'></div>
   </div class='column'>
 </div>
