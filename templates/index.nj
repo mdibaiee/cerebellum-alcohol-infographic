@@ -37,6 +37,8 @@
       {% include './assessment.nj' %}
 
       {% include './treatment.nj' %}
+
+      {% include './references.nj' %}
     </div>
   </body>
 

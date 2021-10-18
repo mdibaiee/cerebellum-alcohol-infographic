@@ -74,3 +74,12 @@ svg {
 #Alcohol, #connection-rectangle, #brain, #brain-projection, #human {
   opacity: 0;
 }
+
+.references li {
+  transition: background-color 1s;
+  padding: 0.5rem 1rem;
+}
+
+.highlight {
+  background-color: rgb(251, 255, 130);
+}

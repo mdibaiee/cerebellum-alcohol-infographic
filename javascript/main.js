@@ -75,3 +75,19 @@ anime({
   delay: 3000,
   easing: 'easeInOutExpo'
 });
+
+
+var HIGHLIGHT_DURATION = 4000;
+// Highlight References
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('[href^="#ref-"]').forEach(function(a) {
+    a.addEventListener('click', function() {
+      var target = document.getElementById(a.href.slice(a.href.indexOf('#') + 1));
+      target.classList.add('highlight');
+
+      setTimeout(function() {
+        target.classList.remove('highlight');
+      }, HIGHLIGHT_DURATION);
+    });
+  });
+});
