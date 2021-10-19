@@ -1,25 +1,29 @@
-<html lang="en">
+<html lang="en" data-theme="light">
   {% include './head.nj' %}
 
-  <body>
-    <header class='row'>
-      <div class='column'><a href='#alcohol-and-the-brain'>Alcohol and the Brain</a></div>
-      <div class='column'><a href='#what-is-cerebellum'>What is Cerebellum?</a></div>
-      <div class='column'><a href='#how-alcohol-damages-cerebellum'>Alcohol and Cerebellum</a></div>
-      <div class='column'><a href='#how-cerebellum-damage-affects-you'>Symptoms</a></div>
-      <div class='column'><a href='#assessment'>Assessment</a></div>
-      <div class='column'><a href='#treatment-and-rehab'>Treatment & Rehabilitation</a></div>
+  <body class='container'>
+    <header class='navbar'>
+      <nav class='navbar-section columns'>
+        <a class='btn btn-link column' href='#alcohol-and-the-brain'>Alcohol and the Brain</a>
+        <a class='btn btn-link column' href='#what-is-cerebellum'>What is Cerebellum?</a>
+        <a class='btn btn-link column' href='#how-alcohol-damages-cerebellum'>Alcohol and Cerebellum</a>
+        <a class='btn btn-link column' href='#how-cerebellum-damage-affects-you'>Symptoms</a>
+        <a class='btn btn-link column' href='#assessment'>Assessment</a>
+        <a class='btn btn-link column' href='#treatment-and-rehab'>Treatment & Rehabilitation</a>
+      </nav>
     </header>
+    
+    <div class='vertical-space'></div>
 
-    <div class='container'>
-      <div class='row heading'>
-        <div class='column'>
+    <main class='columns'>
+      <div class='heading text-center column col-12'>
+        <div>
           <h1>{{ title }}</h1>
           <h2>{{ subtitle }}</h2>
         </div>
       </div>
 
-      <div class='row'>
+      <div class='illustration text-center column col-9 col-md-12 p-centered'>
         {% include 'assets/alcohol-cerebellum.svg' %}
       </div>
 
@@ -38,7 +42,7 @@
       {% include './treatment.nj' %}
 
       {% include './references.nj' %}
-    </div>
+    </main>
   </body>
 
   {% include './scripts.nj' %}

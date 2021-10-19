@@ -1,13 +1,8 @@
-<div class='row'>
-  <div class='column'>
-    <h2>References</h2>
-  </div>
-</div>
-<div class='references row'>
-  <div class='column'>
-    <ol>
-      <li id='ref-1'>{{ "Alcoholic brain damage. (2013). In Crichton, R., & Ward, R. (2013). Metal-based neurodegeneration: from molecular mechanisms to therapeutic strategies. John Wiley & Sons. https://doi.org/10.1002/9781118553480.ch12" | urlize | safe }}</li>
-      <li id='ref-2'>{{ "Global Burden of Disease Collaborative Network. Global Burden of Disease Study 2019 (GBD 2019) Results. Seattle, United States: Institute for Health Metrics and Evaluation (IHME), 2020. Available from http://ghdx.healthdata.org/gbd-results-tool." | urlize | safe }}</li>
-    </ol>
-  </div>
-</div>
+<section class='column col-12'>
+  <h2>References</h2>
+
+  <ol>
+    <li id='ref-1'>{{ "Alcoholic brain damage. (2013). In Crichton, R., & Ward, R. (2013). Metal-based neurodegeneration: from molecular mechanisms to therapeutic strategies. John Wiley & Sons. https://doi.org/10.1002/9781118553480.ch12" | urlize | safe }}</li>
+    <li id='ref-2'>{{ "Global Burden of Disease Collaborative Network. Global Burden of Disease Study 2019 (GBD 2019) Results. Seattle, United States: Institute for Health Metrics and Evaluation (IHME), 2020. Available from http://ghdx.healthdata.org/gbd-results-tool." | urlize | safe }}</li>
+  </ol>
+</section>

@@ -1,10 +1,4 @@
-<div class='row'>
-  <div class='column'>
-    <h2 id='how-cerebellum-damage-affects-you'>How does damage to Cerebellum affect you?</h2>
-  </div>
-</div>
-<div class='row'>
-  <div class='column'>
-    <p>Loss of balance, dizziness, ...</p>
-  </div class='column'>
-</div>
+<section class='column col-12'>
+  <h2 id='how-cerebellum-damage-affects-you'>How does damage to Cerebellum affect you?</h2>
+  <p>Loss of balance, dizziness, ...</p>
+</section>

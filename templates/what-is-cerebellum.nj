@@ -1,12 +1,6 @@
-<div class='row'>
-  <div class='column'>
-    <h2 id='what-is-cerebellum'>What is Cerebellum and what does it do?</h2>
-  </div>
-</div>
-<div class='row'>
-  <div class='column'>
-    <p>Cerebellum is one of the major controlling areas in terms of motor function: that means moving our bodies and keeping our balance ...</p>
+<section class='column col-12'>
+  <h2 id='what-is-cerebellum'>What is Cerebellum and what does it do?</h2>
+  <p>Cerebellum is one of the major controlling areas in terms of motor function: that means moving our bodies and keeping our balance ...</p>
 
-    <div id='brain-container'></div>
-  </div class='column'>
+  <div id='brain-container'></div>
 </div>

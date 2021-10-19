@@ -1,7 +1,6 @@
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
-  <link rel='stylesheet' href='css/milligram.min.css' />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel='stylesheet' href='css/spectre.min.css' />
   <link rel='stylesheet' href='css/style.css' />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,25 +8,29 @@
 
 
 
-  <body>
-    <header class='row'>
-      <div class='column'><a href='#alcohol-and-the-brain'>Alcohol and the Brain</a></div>
-      <div class='column'><a href='#what-is-cerebellum'>What is Cerebellum?</a></div>
-      <div class='column'><a href='#how-alcohol-damages-cerebellum'>Alcohol and Cerebellum</a></div>
-      <div class='column'><a href='#how-cerebellum-damage-affects-you'>Symptoms</a></div>
-      <div class='column'><a href='#assessment'>Assessment</a></div>
-      <div class='column'><a href='#treatment-and-rehab'>Treatment & Rehabilitation</a></div>
+  <body class='container'>
+    <header class='navbar'>
+      <nav class='navbar-section columns'>
+        <a class='btn btn-link column' href='#alcohol-and-the-brain'>Alcohol and the Brain</a>
+        <a class='btn btn-link column' href='#what-is-cerebellum'>What is Cerebellum?</a>
+        <a class='btn btn-link column' href='#how-alcohol-damages-cerebellum'>Alcohol and Cerebellum</a>
+        <a class='btn btn-link column' href='#how-cerebellum-damage-affects-you'>Symptoms</a>
+        <a class='btn btn-link column' href='#assessment'>Assessment</a>
+        <a class='btn btn-link column' href='#treatment-and-rehab'>Treatment & Rehabilitation</a>
+      </nav>
     </header>
+    
+    <div class='vertical-space'></div>
 
-    <div class='container'>
-      <div class='row heading'>
-        <div class='column'>
+    <main class='columns'>
+      <div class='heading text-center column col-12'>
+        <div>
           <h1>How Does Alcohol Affect Your Brain?</h1>
           <h2>Cerebellum and its Role in Your Coordination</h2>
         </div>
       </div>
 
-      <div class='row'>
+      <div class='illustration text-center column col-9 col-md-12 p-centered'>
         <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1562px" viewBox="0 0 1562 1089" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
@@ -97,21 +100,17 @@
 
       <div class='vertical-space'></div>
 
-      <section class='alcohol-and-the-brain'>
-  <div class='row'>
-    <div class='column'>
-      <h2 id='alcohol-and-the-brain'>Alcohol and the Brain</h2>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='column content'>
+      <section class='alcohol-and-the-brain column col-12'>
+  <h2 id='alcohol-and-the-brain'>Alcohol and the Brain</h2>
+  <div class='columns'>
+    <div class='column col-6 col-md-12'>
       <p>Binge drinking (drinking 5 units over a 2 hour period, followed by a period of abstinence) and high alcohol intake (more than 5 units a day), can lead to dependence, tolerance and cravings, which lead to a continuation of alcohol abuse to prevent withdrawal symptoms.</p>
       <p>Chronic alcohol abuse can have adverse effects such as loss of balance and gait, slurred speech, slower reactions, poor memory consolidation, compromised emotional modulation and judgement. These effects in turn can lead to difficulties in social and emotional interactions, and a reduction in motivation, attention and impulse control.</p>
       <p>These effects are studied and proven using methods such as MRI scans which show loss of neurons, particularly in the frontal lobe, the area most associated with reasoning, decision-making and rationality, however it can affect other areas of the brain such as the cerebellum (associated with balance and movement), hippocampus (memory) and amygdala (memory, decision making and emotional responses). [<a href='#ref-1'>1</a>]</p>
 
       <p>Every year millions of people suffer from Alcohol use disorder, leading to physical and mental health problems.</p>
     </div>
-    <div class='column chart'>
+    <div class='column col-6 col-md-12'>
       <div class='alcohol-abuse-chart-box'>
         <canvas id='alcohol-abuse'></canvas>
         <p class='text-center'>Prevalence of alcohol abuse and direct death caused by alcohol dependance across the world [<a href='#ref-2'>2</a>]</p>
@@ -121,83 +120,48 @@
 </section>
 
 
-      <div class='row'>
-  <div class='column'>
-    <h2 id='what-is-cerebellum'>What is Cerebellum and what does it do?</h2>
-  </div>
-</div>
-<div class='row'>
-  <div class='column'>
-    <p>Cerebellum is one of the major controlling areas in terms of motor function: that means moving our bodies and keeping our balance ...</p>
+      <section class='column col-12'>
+  <h2 id='what-is-cerebellum'>What is Cerebellum and what does it do?</h2>
+  <p>Cerebellum is one of the major controlling areas in terms of motor function: that means moving our bodies and keeping our balance ...</p>
 
-    <div id='brain-container'></div>
-  </div class='column'>
+  <div id='brain-container'></div>
 </div>
 
 
-      <div class='row'>
-  <div class='column'>
-    <h2 id='how-alcohol-damages-cerebellum'>How does Alcohol damage your Cerebellum?</h2>
-  </div>
-</div>
-<div class='row'>
-  <div class='column'>
-    <p>Loss of balance, dizziness, ...</p>
-  </div class='column'>
-</div>
+      <section class='column col-12'>
+  <h2 id='how-alcohol-damages-cerebellum'>How does Alcohol damage your Cerebellum?</h2>
+  <p>Loss of balance, dizziness, ...</p>
+</section>
 
 
-      <div class='row'>
-  <div class='column'>
-    <h2 id='how-cerebellum-damage-affects-you'>How does damage to Cerebellum affect you?</h2>
-  </div>
-</div>
-<div class='row'>
-  <div class='column'>
-    <p>Loss of balance, dizziness, ...</p>
-  </div class='column'>
-</div>
+      <section class='column col-12'>
+  <h2 id='how-cerebellum-damage-affects-you'>How does damage to Cerebellum affect you?</h2>
+  <p>Loss of balance, dizziness, ...</p>
+</section>
 
 
-      <div class='row'>
-  <div class='column'>
-    <h2 id='assessment'>How to assess your Cerebellum function?</h2>
-  </div>
-</div>
-<div class='row'>
-  <div class='column'>
-    <p>Loss of balance, dizziness, ...</p>
-  </div class='column'>
-</div>
+      <section class='column col-12'>
+  <h2 id='assessment'>How to assess your Cerebellum function?</h2>
+  <p>Loss of balance, dizziness, ...</p>
+</section>
 
 
-      <div class='row'>
-  <div class='column'>
-    <h2 id='treatment-and-rehab'>Treatment and Rehabilitation</h2>
-  </div>
-</div>
-<div class='row'>
-  <div class='column'>
-    <p>Loss of balance, dizziness, ...</p>
-  </div class='column'>
-</div>
+      <section class='column col-12'>
+  <h2 id='treatment-and-rehab'>Treatment and Rehabilitation</h2>
+  <p>Loss of balance, dizziness, ...</p>
+</section>
 
 
-      <div class='row'>
-  <div class='column'>
-    <h2>References</h2>
-  </div>
-</div>
-<div class='references row'>
-  <div class='column'>
-    <ol>
-      <li id='ref-1'>Alcoholic brain damage. (2013). In Crichton, R., & Ward, R. (2013). Metal-based neurodegeneration: from molecular mechanisms to therapeutic strategies. John Wiley & Sons. <a href="https://doi.org/10.1002/9781118553480.ch12">https://doi.org/10.1002/9781118553480.ch12</a></li>
-      <li id='ref-2'>Global Burden of Disease Collaborative Network. Global Burden of Disease Study 2019 (GBD 2019) Results. Seattle, United States: Institute for Health Metrics and Evaluation (IHME), 2020. Available from <a href="http://ghdx.healthdata.org/gbd-results-tool">http://ghdx.healthdata.org/gbd-results-tool</a></li>
-    </ol>
-  </div>
-</div>
+      <section class='column col-12'>
+  <h2>References</h2>
 
-    </div>
+  <ol>
+    <li id='ref-1'>Alcoholic brain damage. (2013). In Crichton, R., & Ward, R. (2013). Metal-based neurodegeneration: from molecular mechanisms to therapeutic strategies. John Wiley & Sons. <a href="https://doi.org/10.1002/9781118553480.ch12">https://doi.org/10.1002/9781118553480.ch12</a></li>
+    <li id='ref-2'>Global Burden of Disease Collaborative Network. Global Burden of Disease Study 2019 (GBD 2019) Results. Seattle, United States: Institute for Health Metrics and Evaluation (IHME), 2020. Available from <a href="http://ghdx.healthdata.org/gbd-results-tool">http://ghdx.healthdata.org/gbd-results-tool</a></li>
+  </ol>
+</section>
+
+    </main>
   </body>
 
   <script src='javascript/deps/anime.min.js'></script>
