@@ -3,6 +3,8 @@
   <link rel='stylesheet' href='css/milligram.min.css' />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel='stylesheet' href='css/style.css' />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 
@@ -27,7 +29,7 @@
 
       <div class='row'>
         <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1562px" height="1089px" viewBox="0 0 1562 1089" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1562px" viewBox="0 0 1562 1089" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
     <title>Alcohol-Cerebellum</title>
     <desc>Created with Sketch.</desc>
@@ -90,31 +92,33 @@
         <rect id="connection-rectangle" fill="url(#linearGradient-1)" x="867" y="193" width="248" height="50"></rect>
     </g>
 </svg>
+
       </div>
 
       <div class='vertical-space'></div>
 
-
-      <div class='row'>
-  <div class='column'>
-    <h2 id='alcohol-and-the-brain'>Alcohol and the Brain</h2>
-  </div>
-</div>
-<div class='row'>
-  <div class='column column-50'>
-    <p>Binge drinking (drinking 5 units over a 2 hour period, followed by a period of abstinence) and high alcohol intake (more than 5 units a day), can lead to dependence, tolerance and cravings, which lead to a continuation of alcohol abuse to prevent withdrawal symptoms.</p>
-    <p>Chronic alcohol abuse can have adverse effects such as loss of balance and gait, slurred speech, slower reactions, poor memory consolidation, compromised emotional modulation and judgement. These effects in turn can lead to difficulties in social and emotional interactions, and a reduction in motivation, attention and impulse control.</p>
-    <p>These effects are studied and proven using methods such as MRI scans which show loss of neurons, particularly in the frontal lobe, the area most associated with reasoning, decision-making and rationality, however it can affect other areas of the brain such as the cerebellum (associated with balance and movement), hippocampus (memory) and amygdala (memory, decision making and emotional responses). [<a href='#ref-1'>1</a>]</p>
-
-    <p>Every year millions of people suffer from Alcohol use disorder, leading to physical and mental health problems.</p>
-  </div>
-  <div class='column column-50'>
-    <div class='alcohol-abuse-chart-box'>
-      <canvas id='alcohol-abuse'></canvas>
-      <p class='text-center'>Prevalence of alcohol abuse and direct death caused by alcohol dependance across the world [<a href='#ref-2'>2</a>]</p>
+      <section class='alcohol-and-the-brain'>
+  <div class='row'>
+    <div class='column'>
+      <h2 id='alcohol-and-the-brain'>Alcohol and the Brain</h2>
     </div>
   </div>
-</div>
+  <div class='row'>
+    <div class='column content'>
+      <p>Binge drinking (drinking 5 units over a 2 hour period, followed by a period of abstinence) and high alcohol intake (more than 5 units a day), can lead to dependence, tolerance and cravings, which lead to a continuation of alcohol abuse to prevent withdrawal symptoms.</p>
+      <p>Chronic alcohol abuse can have adverse effects such as loss of balance and gait, slurred speech, slower reactions, poor memory consolidation, compromised emotional modulation and judgement. These effects in turn can lead to difficulties in social and emotional interactions, and a reduction in motivation, attention and impulse control.</p>
+      <p>These effects are studied and proven using methods such as MRI scans which show loss of neurons, particularly in the frontal lobe, the area most associated with reasoning, decision-making and rationality, however it can affect other areas of the brain such as the cerebellum (associated with balance and movement), hippocampus (memory) and amygdala (memory, decision making and emotional responses). [<a href='#ref-1'>1</a>]</p>
+
+      <p>Every year millions of people suffer from Alcohol use disorder, leading to physical and mental health problems.</p>
+    </div>
+    <div class='column chart'>
+      <div class='alcohol-abuse-chart-box'>
+        <canvas id='alcohol-abuse'></canvas>
+        <p class='text-center'>Prevalence of alcohol abuse and direct death caused by alcohol dependance across the world [<a href='#ref-2'>2</a>]</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 
       <div class='row'>
@@ -196,16 +200,15 @@
     </div>
   </body>
 
-  <script src='javascript/anime.min.js'></script>
-<script src='javascript/lodash.min.js'></script>
+  <script src='javascript/deps/anime.min.js'></script>
+<script src='javascript/deps/lodash.min.js'></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js" integrity="sha512-Wt1bJGtlnMtGP0dqNFH1xlkLBNpEodaiQ8ZN5JLA5wpc1sUlk/O5uuOMNgvzddzkpvZ9GLyYNa8w2s7rqiTk5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <script src="javascript/alcohol-use-disorder.js"></script>
 <script src='javascript/main.js'></script>
-<script src="javascript/three.js"></script>
-<script src="javascript/OBJLoader.js"></script>
-<script src="javascript/GLTFLoader.js"></script>
-<script src="javascript/MTLLoader.js"></script>
-<script src="javascript/OrbitControls.js"></script>
+<script src="javascript/deps/three.js"></script>
+<script src="javascript/deps/GLTFLoader.js"></script>
+<script src="javascript/deps/OrbitControls.js"></script>
 <script src="javascript/brain.js"></script>
 
 </html>

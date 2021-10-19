@@ -25,7 +25,6 @@
 
       <div class='vertical-space'></div>
 
-
       {% include './alcohol-and-the-brain.nj' %}
 
       {% include './what-is-cerebellum.nj' %}
