@@ -1,8 +1,12 @@
-<section class='column col-12'>
+<section class='column col-12 references'>
   <h2>References</h2>
 
   <ol>
-    <li id='ref-1'>{{ "Alcoholic brain damage. (2013). In Crichton, R., & Ward, R. (2013). Metal-based neurodegeneration: from molecular mechanisms to therapeutic strategies. John Wiley & Sons. https://doi.org/10.1002/9781118553480.ch12" | urlize | safe }}</li>
+    <li id='ref-1'>{{ "Crichton, R., & Ward, R. (2013). Metal-based neurodegeneration: from molecular mechanisms to therapeutic strategies. John Wiley & Sons. https://doi.org/10.1002/9781118553480.ch12" | urlize | safe }}</li>
     <li id='ref-2'>{{ "Global Burden of Disease Collaborative Network. Global Burden of Disease Study 2019 (GBD 2019) Results. Seattle, United States: Institute for Health Metrics and Evaluation (IHME), 2020. Available from http://ghdx.healthdata.org/gbd-results-tool." | urlize | safe }}</li>
+    <li id='ref-3'>{{ "Holmes, G. (1939). The cerebellum of man. Brain, 62(1), 1-30. https://doi.org/10.1093/brain/62.1.1" | urlize | safe }}</li>
+    <li id='ref-4'>{{ "Schmahmann, J. D. (2019). The cerebellum and cognition. Neuroscience letters, 688, 62-75. https://doi.org/10.1016/j.neulet.2018.07.005" | urlize | safe }}</li>
+    <li id='ref-5'>{{ "Purves, D., Augustine, G. J., Fitzpatrick, D., Hall, W. C., LaMantia, A. S., & White, L. E. (2011). Neuroscience, 5th edn. Sunderland, MA. pp. 417–423." }}</li>
+    <li id='ref-6'>{{ "Ghez, C. (1985). Fahn S. The cerebellum. Principles of neural science, 2nd edition. pp. 502–522" }}</li>
   </ol>
 </section>

@@ -45,6 +45,10 @@ svg {
   opacity: 0;
 }
 
+.references ol {
+  margin: 0;
+}
+
 .references li {
   transition: background-color 1s;
   padding: 0.5rem 1rem;

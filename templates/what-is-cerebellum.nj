@@ -1,6 +1,8 @@
 <section class='column col-12'>
   <h2 id='what-is-cerebellum'>What is Cerebellum and what does it do?</h2>
-  <p>Cerebellum is one of the major controlling areas in terms of motor function: that means moving our bodies and keeping our balance ...</p>
+  <p>Cerebellum (latin for "little brain") is one of the important areas of the brain with a primary function of motor control, which includes all directed movement, stability and balance, posture, gait and even reflexes. [<a href='#ref-3'>3</a>] Cerebellum is also important for cognition, emotion, attention, language control and more. [<a href='#ref-4'>4</a>] Antomatically, the cerebellum is located at the bottom of the brain, separate from the hemispheres. [<a href='#ref-5'>5</a>] You can see the cerebellum highlighted in the model below.</p>
 
-  <div id='brain-container'></div>
+  <p>Our understanding of Cerebellum's function with regards to motor control, its primary function, is that it does not initiate movement, but rather calibrates and coordinates the movement for precision and accurate timing, this can in turn affect stability while standing or walking, general posture and coordination. [<a href='#ref-6'>6</a>]</p>
+
+  <div id='brain-container' class='c-move'></div>
 </div>
