@@ -8,5 +8,6 @@
     <li id='ref-4'>{{ "Schmahmann, J. D. (2019). The cerebellum and cognition. Neuroscience letters, 688, 62-75. https://doi.org/10.1016/j.neulet.2018.07.005" | urlize | safe }}</li>
     <li id='ref-5'>{{ "Purves, D., Augustine, G. J., Fitzpatrick, D., Hall, W. C., LaMantia, A. S., & White, L. E. (2011). Neuroscience, 5th edn. Sunderland, MA. pp. 417–423." }}</li>
     <li id='ref-6'>{{ "Ghez, C. (1985). Fahn S. The cerebellum. Principles of neural science, 2nd edition. pp. 502–522" }}</li>
+    <li id='ref-7'>Sullivan, E. V., Rosenbloom, M. J., Deshmukh, A., Desmond, J. E., & Pfefferbaum, A. (1995). Alcohol and the Cerebellum: Effects on Balance, Motor Coordination, and Cognition. Alcohol health and research world, 19(2), 138–141.</li>
   </ol>
 </section>
