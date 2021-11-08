@@ -9,5 +9,20 @@
     <li id='ref-5'>{{ "Purves, D., Augustine, G. J., Fitzpatrick, D., Hall, W. C., LaMantia, A. S., & White, L. E. (2011). Neuroscience, 5th edn. Sunderland, MA. pp. 417–423." }}</li>
     <li id='ref-6'>{{ "Ghez, C. (1985). Fahn S. The cerebellum. Principles of neural science, 2nd edition. pp. 502–522" }}</li>
     <li id='ref-7'>Sullivan, E. V., Rosenbloom, M. J., Deshmukh, A., Desmond, J. E., & Pfefferbaum, A. (1995). Alcohol and the Cerebellum: Effects on Balance, Motor Coordination, and Cognition. Alcohol health and research world, 19(2), 138–141.</li>
+    <li id='ref-8'>How Alcohol Compounds Its Damage to the Brain. (2020, November 23). Verywell Mind. https://www.verywellmind.com/alcohol-compounds-its-damage-to-the-brain-62747</li>
+    <li id='ref-9'>{{ "Goldman, M. S., Klisz, D. K., & Williams, D. L. (1985). Experience-dependent recovery of cognitive functioning in young alcoholics. Addictive Behaviors, 10(2), 169–176. https://doi.org/10.1016/0306-4603(85)90023-1" | urlize }}</li>
+    <li id='ref-10'>{{ "Bezrutczyk, D. (2021, October 14). Alcohol-Related Brain Damage. Alcohol Rehab Guide. https://www.alcoholrehabguide.org/resources/medical-conditions/alcohol-related-brain-damage/#" | urlize }}</li>
+    <li id='ref-11'>{{ "Griffin, M. R. (2017, August 16). What Are the Treatments for Alcohol Use Disorder? WebMD.https://www.webmd.com/mental-health/addiction/alcohol-use-disorder-treatments#2" | urlize }}</li>
+    <li id='ref-12'>{{ "Klintsova, A. Y., Cowell, R. M., Swain, R. A., Napper, R. M., Goodlett, C. R., & Greenough, W. T. (1998). Therapeutic effects of complex motor training on motor performance deficits induced by neonatal binge-like alcohol exposure in rats. Brain Research, 800(1), 48–61. https://doi.org/10.1016/s0006-8993(98)00495-8" | urlize }}</li>
+    <li id='ref-13'>{{ "Baillieux, H.; De smet, H. J.; Dobbeleir, A.; Paquier, P. F.; De Deyn, P; Mariën, P. (2010). Cognitive and affective disturbances following focal cerebellar damage in adults: A neuropsychological and SPECT study. CORTEX, 46, 869-897." }}</li>
+    <li id='ref-14'>{{ "Reeber, Stacey ; Otis, Tom ; Sillitoe, Roy (2013) New roles for the cerebellum in health and disease. Frontiers in Systems Neuroscience, 14, 1662-5137." }}</li>
+    <li id='ref-15'>{{ "NIH Genetic and Rare Diseases Information Center (2014) Cerebellar Degeneration, Assesed: 05.11.2021" }}</li>
+    <li id='ref-16'>{{ "Stoodley C. J. (2016). The Cerebellum and Neurodevelopmental Disorders. Cerebellum (London, England), 15(1), 34–37. https://doi.org/10.1007/s12311-015-0715-3" | urlize }}</li>
+    <li id='ref-17'>{{ "Shanmugarajah, P.D., Hoggard, N., Currie, S. et al. Alcohol-related cerebellar degeneration: not all down to toxicity?. cerebellum ataxias 3, 17 (2016). https://doi.org/10.1186/s40673-016-0055-1" | urlize }}</li>
+    <li id='ref-18'>{{ "Luo J. (2015). Effects of Ethanol on the Cerebellum: Advances and Prospects. Cerebellum (London, England), 14(4), 383–385. https://doi.org/10.1007/s12311-015-0674-8" | urlize }}</li>
+    <li id='ref-19'>{{ "Bargiela, David. Cerebellar examination. URL: https://geekymedics.com/cerebellar-examination-osce-guide/. Assessed 05.11.2021" | urlize }}</li>
+    <li id='ref-20'>{{ "Stanford Medicine 25 (2014) Introduction to the Cerebellar Exam. URL: https://stanfordmedicine25.stanford.edu/the25/cerebellar.html. Assessed 05.11.2021" | urlize }}</li>
+    <li id='ref-21'>{{ "Arora R. (2015). Imaging spectrum of cerebellar pathologies: a pictorial essay. Polish journal of radiology, 80, 142–150. https://doi.org/10.12659/PJR.892878" | urlize }}</li>
+    <li id='ref-22'>{{ "Sullivan, E. V., Rosenbloom, M. J., Deshmukh, A., Desmond, J. E., & Pfefferbaum, A. (1995). Alcohol and the Cerebellum: Effects on Balance, Motor Coordination, and Cognition. Alcohol health and research world, 19(2), 138–141." }}</li>
   </ol>
 </section>
